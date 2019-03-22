@@ -20,12 +20,30 @@
 	<p>More</p>
 	<img src="./icons/notepad.png" id="notepad">
 	<p>Notepad</p>
+	
+  </div>
+  
+  <div id="welcome">
+    <img src="./icons/welcome.png">
+	<p id="intro">Welcome.</p>
+	<br>
+	<br>
+	<p>This site is currently being worked on.</p>
+	<br>
+	<p>Check back later.<p class="blinking">|</p></p>
+
   </div>
   
   <footer>
     <img src="./icons/start.png" id="start">
 	
-	<img src="./icons/window.png" id="window">
+	<img src="./icons/window.png" id="windows">
+	
+	<p><span id="datetime"></span></p>
+	<script>
+	  var dt = new Date();
+	  document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+	</script>
   </footer>
 	
 </body>
