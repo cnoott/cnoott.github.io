@@ -84,11 +84,52 @@ footer {
 	
 }
 #start {
-	width: 150px;
-
+	width: 100px; 
+	padding: 3px;
 }
-#window {
-	width: 250px;
-	bottom: 10px;
+#windows {
+	width: 200px;
+	height: 45px;
+	margin-bottom: 1px;
+	margin-left: 10px;
+	margin-top: 2px;
 }
-	
+/*time*/
+footer > p {
+	float: right;
+	font-weight: 200px;
+	font-size: 20px;
+	border: solid;
+	border-style: groove;
+	border-width: 5px;
+	padding: 4px;
+	margin-top: 5px;
+}
+/*text box*/
+#welcome > img{
+	display: inline;
+	position: absolute;
+	width: 45%;
+	margin-left: 500px;
+	bottom: 165px;
+}
+#welcome > p {
+	position: relative;
+	margin-left: 510px;
+	bottom: 420px;
+}
+.blinking {
+	display: inline;
+	color:;
+}
+	.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+}
