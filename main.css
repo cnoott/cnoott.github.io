@@ -7,8 +7,13 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
+<<<<<<< HEAD
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
+=======
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+>>>>>>> 7d335df57a17f1933205ac787fc2b247ebf4a28d
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +24,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+<<<<<<< HEAD
 article, aside, details, figcaption, figure,
+=======
+article, aside, details, figcaption, figure, 
+>>>>>>> 7d335df57a17f1933205ac787fc2b247ebf4a28d
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,13 +73,20 @@ header > img {
 	margin-top: 15px;
 }
 
+<<<<<<< HEAD
 #icons > a > img{
+=======
+#icons > img{
+>>>>>>> 7d335df57a17f1933205ac787fc2b247ebf4a28d
 	width: 6%;
 	height: auto;
 	display: block;
 	margin-top: 5px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7d335df57a17f1933205ac787fc2b247ebf4a28d
 #icons > p {
 	margin-left: 10px;
 }
@@ -82,10 +98,17 @@ footer {
 	left: 0;
 	bottom: 0px;
 	background-color: #9da1aa;
+<<<<<<< HEAD
 
 }
 #start {
 	width: 100px;
+=======
+	
+}
+#start {
+	width: 100px; 
+>>>>>>> 7d335df57a17f1933205ac787fc2b247ebf4a28d
 	padding: 3px;
 }
 #windows {
@@ -107,6 +130,7 @@ footer > p {
 	margin-top: 5px;
 }
 /*text box*/
+<<<<<<< HEAD
 #welcome > img {
 	position: absolute;
 	width: 45%;
@@ -125,12 +149,29 @@ footer > p {
 	position: absolute;
 	margin-left: 31%;
 	top: 25%;
+=======
+#welcome > img{
+	display: inline;
+	position: absolute;
+	width: 45%;
+	margin-left: 500px;
+	bottom: 165px;
+}
+#welcome > p {
+	position: relative;
+	margin-left: 510px;
+	bottom: 420px;
+>>>>>>> 7d335df57a17f1933205ac787fc2b247ebf4a28d
 }
 .blinking {
 	display: inline;
 	color:;
 }
+<<<<<<< HEAD
 .blinking{
+=======
+	.blinking{
+>>>>>>> 7d335df57a17f1933205ac787fc2b247ebf4a28d
     animation:blinkingText 0.8s infinite;
 }
 @keyframes blinkingText{
