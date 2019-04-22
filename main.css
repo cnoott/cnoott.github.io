@@ -139,3 +139,12 @@ footer > p {
     100%{   color: #000;    }
 }
 }
+/*project box */
+#project_window > img {
+	position: absolute;
+	width: 45%;
+	display: inline;
+	margin-left: 30%;
+	top: 8%;
+
+}
