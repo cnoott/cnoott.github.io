@@ -117,12 +117,12 @@ footer > p {
 #welcome > p {
 	position: absolute;
 	margin-left: 10%;
-	top: 8%;
+	top: 9%;
 }
 #welcome > h1 {
 	position: absolute;
 	margin-left: 10%;
-	top: 12%;
+	top: 13%;
 }
 .blinking {
 	display: inline;
@@ -138,13 +138,31 @@ footer > p {
     99%{    color:transparent;  }
     100%{   color: #000;    }
 }
-}
+/*end*/
 /*project box */
-#project_window > img {
+#project_window{
 	position: absolute;
-	width: 45%;
 	display: inline;
-	margin-left: 30%;
+	margin-left: 40%;
 	top: 8%;
+}
+#project_window > #window{
+	
+	width: 80%;
+
+
 
 }
+#project_window > a > .m0110 {
+	position: absolute;
+	width: 10%;
+	left: 2%;
+	top: 7%;
+}
+#project_window > p {
+	position: absolute;
+	top: 24%;
+	left: 3%;
+	font-size: 12px;
+{
+/*end*/
