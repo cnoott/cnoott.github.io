@@ -29,14 +29,14 @@ header > h1 {
 	
 	list-style-type: none;
 	margin:0;
-	top: 0px;
+	top: 30%;
 	padding:;
 	width: 15%;
 	height: 100%;
 	margin-bottom: 10px;
 	background-color:;
-	position: -webkit-sticky; /* Safari */
-    position: sticky;
+
+    position: fixed;
 
 }
 #menu > li a {
@@ -49,5 +49,27 @@ header > h1 {
 }
 #mac_img {
 	float:right;
-	width: 50%;
+	width: 40%;
 }
+#grid {
+	width: 35%;
+}
+/*--------*/
+#materials{
+	margin-left: 15%;
+	
+}
+/*---------*/
+#preparation{
+	margin-left:15%;
+	display: block;
+	padding: 0;
+}
+#preparation > #prep1{
+	width: 30%;
+	transform: rotate(90deg);
+	margin-left: 50%;
+	
+	
+}
+	
