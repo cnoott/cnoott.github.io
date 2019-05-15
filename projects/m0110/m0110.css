@@ -51,8 +51,15 @@ header > h1 {
 	float:right;
 	width: 40%;
 }
+
+#ex{
+	margin-right: 35%
+}
 #grid {
-	width: 35%;
+	width: 50%;
+	float: right;
+	display: block;
+	margin-right: 0%;
 }
 /*--------*/
 #materials{
@@ -72,4 +79,3 @@ header > h1 {
 	
 	
 }
-	

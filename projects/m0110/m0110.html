@@ -34,16 +34,31 @@
 	<h1>Introduction</h1>
 	<img src="https://i2.wp.com/www.mac-history.net/wp-content/uploads/2011/01/retouchphoto_apple_macintosh_1984_high_res_clean1.jpg?resize=640%2C330&ssl=1"id="mac_img">
 
-	<p>The Apple M0110 keyboard was released in 1984 along with the original Macintosh
-	computer. It embodied a simple minimalistic design which is sought after even today.
+	<p>With a simple minimalistic design and an easy-to-use interface, 
+	the 1984 Macintosh computer was, as Steve Jobs said, <strong>"insanely great."</strong>
 	<br>
-	The keyboard itself encompass said minimal design making it a <60% keyboard.
-	The switches on the keyboard are 'tall cream alps'. Granted,they take their name to heart as
-	the keyfeel is buttery smooth, though, a bit heavy.
+	<br>
+	The keyboard itself encompasses said minimal design making it a <60% keyboard.
+	The switches on the keyboard are 'tall cream alps'. Granted, they take their
+	name to heart as the keyfeel is buttery smooth, though, a bit heavy.
 	</p>
+	<br>
+	<br>
 	<h1>How does a handwired keyboard work?</h1>
-	<img src="https://i.imgur.com/xAQvDNL.png" id="grid">
-	<p></p>
+	<img src="https://i.imgur.com/zPPlTuY.png" id="grid">
+	<p id="ex"><strong>Structure:</strong>
+	<br>
+	The handwired keyboard consists of a matrix made up of diodes (rows)and wire(collumns)connected
+	to either pin on the switch. As seen in the picture to the right, the rows and collumns act 
+	as a XY coordinate grid.
+	<br>
+	<strong>Functionality</strong>
+	<br>
+	Having a matrix with coordinates allows the microcontroller to 'strobe' each collumn
+	scanning each LOW (0) switch for a HIGH input (1). The <a href="https://www.google.com/search?q=pull+up+resistor&oq=pull+up+resistor&aqs=chrome..69i57j0l5.2035j0j7&sourceid=chrome&ie=UTF-8">pull-up resistor</a>
+	identifies the HIGH input resulting in the microcontroller converting the data (using firmware) to send to the computer.
+	</p>
+	
 	</div>
 <!-- Materials -->
 <div id="materials">
