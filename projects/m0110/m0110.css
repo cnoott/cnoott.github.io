@@ -28,7 +28,7 @@ header > h1 {
 #menu > ul {
 	
 	list-style-type: none;
-	margin:0;
+	margin: 0;
 	top: 30%;
 	padding:;
 	width: 15%;
@@ -75,7 +75,31 @@ header > h1 {
 #preparation > #prep1{
 	width: 30%;
 	transform: rotate(90deg);
+	float: left;	
+}
+#preparation > #preptxt1 {
+	margin-right: 10%;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+#preparation > #prep2{
+	width: 45%;
+	float: right;
+	margin-top: 10%;
+	margin-right: 10%;
+}
+#preparation > #preptxt2 {
+	margin-top: 10%;
+	float: left;
+}
+#preparation > #prep3 {
+	width: 45%;
+	float: left;
+	margin-top: 25%;
+}
+#preparation > #preptxt3 {
+	float: right;
 	margin-left: 50%;
-	
-	
+	position: absolute;
+	top: 100%;
 }
