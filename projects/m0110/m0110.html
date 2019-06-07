@@ -52,7 +52,7 @@
 	to either pin on the switch. As seen in the picture to the right, the rows and collumns act 
 	as a XY coordinate grid.
 	<br>
-	<strong>Functionality</strong>
+	<strong>Functionality:</strong>
 	<br>
 	Having a matrix with coordinates allows the microcontroller to 'strobe' each collumn
 	scanning each LOW (0) switch for a HIGH input (1). The <a href="https://www.google.com/search?q=pull+up+resistor&oq=pull+up+resistor&aqs=chrome..69i57j0l5.2035j0j7&sourceid=chrome&ie=UTF-8">pull-up resistor</a>
@@ -67,12 +67,12 @@
 <p>Materials consisted of:
   <ul>
     <li>M0110 Keboard</li>
-	<li>Dell AT101 Keyboard springs</li>
+	<li>Dell AT101 Keyboard springs (40g)</li>
 	<li>Diodes</li>
 	<li>Single core wire</li>
 	<li>Soldering iron</li>
 	<li>Multimeter</li>
-	<li>Micro-controller(Tensy2.0)</li>
+	<li>Micro-controller (Tensy2.0)</li>
   </ul>
 </p>
 </div>
@@ -80,18 +80,26 @@
 <a NAME="preparation">
 <div id="preparation">
 <h1>Preparation</h1>
-  <img src="https://i.imgur.com/B0nxYEM.jpg?1" class="" id="prep1">
-  <br>
-  <br>
-  <p id="preptxt1">Since this is a handwire job, I had to remove the originial pcb.
-  This took a lot longer than expected due to the de-soldering of each switch</p>
-  <br>
-  <br>
-  <img src="https://i.imgur.com/s4rR0SC.jpg?2" class="" id="prep2">
-  <p id="preptxt2">After the removal of each individual switch the pcb came clean off. </p>
-  <br>
-  <br>
-  <img src="https://i.imgur.com/4ZIv7qa.jpg" class="" id="prep3">
+<img src="https://i.imgur.com/B0nxYEM.jpg?1" id="pcb">
+<p>Since this is a hand-wired keyboard, I had to remove the original pcb by desoldering each switch.</p>
+<br>
+<br>
+<img src="https://i.imgur.com/s4rR0SC.jpg?2" id="switch">
+<img src="https://i.imgur.com/4ZIv7qa.jpg" id="springs">
+<br>
+<p>After all the swiches were removed I got a Dell AT101w and removed the 40g springs.</p>
+<img src="https://i.imgur.com/ALBIMNl.jpg" id="testing">
+<p>The meticulous process began of replacing the springs of each switch and testing them.</p>
 </div>
+<div id="handwire">
+	<a NAME="handwire">
+	<h1>Handwire</h1>
+  <img src="https://i.imgur.com/j37BcAg.jpg" id="begin">
+  <p>Now that the swtiches are all installed back into the switch plate, the handwiring may begin</p>
+  <img src="https://i.imgur.com/dG3IKSO.jpg" id="fin">
+  <p>Finshed result of the matrix</p>
+  <img src="https://i.imgur.com/lAFtFWp.jpg?1" id="label">
+  <p id="labelp">Sketching out the matrix and micro controller is essential to know what I/O goes to which row/collumn when programming"</p>
+  </div>
   </body>
 </html>
