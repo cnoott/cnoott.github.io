@@ -93,26 +93,27 @@ header > h1 {
 	width: 28%;
 	transform: rotate(-90deg);
 }
-#handwire > h1 {
+#h1t {
 	margin-left: 15%;
 }
-#handwire > img{
+.defpic{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 }
-#handwire > p {
+#sp {
 	text-align: center;
 }
-#handwire > #begin {
+#begin {
 	width: 28%;
 	transform: rotate(-90deg);
 }
-#handwire > #fin {
+#fin {
 	width: 40%;
 	transform: rotate(-90deg);
 }
-#handwire > #label {
+#label {
 	width: 30%;
 	float: left;
+	
 }
