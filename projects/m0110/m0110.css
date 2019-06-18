@@ -105,15 +105,66 @@ header > h1 {
 	text-align: center;
 }
 #begin {
-	width: 28%;
-	transform: rotate(-90deg);
+	width: 40%;
 }
 #fin {
 	width: 40%;
-	transform: rotate(-90deg);
 }
 #label {
-	width: 30%;
-	float: left;
-	
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
 }
+#matrixp {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+#teensy {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#teensyd {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#finres {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#programming {
+	margin-left: auto;
+	margin-right: auto;
+}
+#progh1{
+	margin-left: 15%;
+}
+#prog {
+	float: left;
+	width: 40%;
+	margin-left: 20%;
+}
+#progtxt {
+
+}
+#conclusion #conc {
+	display: inline-block;
+	margin-right: 50%;
+	margin-left: 15%;
+}
+#conclusion > #concimg {
+	float: left;
+}
+#concimg1 {
+	width: 45%;
+	margin-left: 15%;
+	float: left;
+}
+
