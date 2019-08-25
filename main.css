@@ -164,10 +164,22 @@ footer > p {
 	left: 2%;
 	top: 7%;
 }
-#project_window > p {
+#project_window > .m0110p{
 	position: absolute;
 	top: 24%;
 	left: 3%;
 	font-size: 12px;
-{
-
+}
+#project_window > a > .bmserver {
+    position: absolute;
+    width: 10%;
+    left: 2%;
+    top: 30%;
+    
+}
+#project_window > .bmserverp {
+    position: absolute;
+    top: 48%;
+    left: 3%;
+    font-size: 9px:
+    }
